@@ -9,7 +9,7 @@ NC='\033[0m' # No Color
 
 
 [ ${BAT%?} -ge 76 ] && echo "$BAT  $CHR"
-#[ ${BAT%?} -le 5 ] && echo -e "$BAT ${RED} ${NC} $CHR"
+[ ${BAT%?} -le 5 ] && echo "#FF8000"
 [ ${BAT%?} -le 10 ] && echo "$BAT  $CHR"
 [ ${BAT%?} -le 25 ] && echo "$BAT  $CHR"
 [ ${BAT%?} -le 50 ] && echo "$BAT  $CHR"
